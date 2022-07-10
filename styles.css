@@ -45,6 +45,7 @@ a{
     font-weight: 100rem;
     margin: auto;
     background-color: #1f2937;
+    padding: 50px;
 }
 
 .hero_make{
@@ -97,7 +98,6 @@ a{
 
 .hero_img img{
     width: 100%;
-    /* object-fit: scale-down; */
 }
 
 .hero_text{
@@ -107,6 +107,7 @@ a{
 .offering {
     display: block;
     width: 100%;
+    margin-bottom: 20px;
 }
 
 .offering_head{
@@ -198,8 +199,9 @@ a{
 }
 
 .callit p:last-child{
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     font-weight: normal;
+    margin-top: 5px;
 }
 
 .actnow button{
@@ -211,4 +213,13 @@ a{
     padding: 5px 20px;
     font-size: 1.2rem;
     margin-left: 20px;
+}
+
+footer{
+    width: 100%;
+    background-color: #1f2937;
+    font-size: 1.2rem;
+    color: #f9faf8;
+    text-align: center;
+    padding: 20px;
 }
