@@ -16,11 +16,13 @@ nav{
     display: flex;
     justify-content: space-between;
     padding: 20px;
+    margin: 0 30px;
 }
 
 img{
     max-width: 70rem;
     max-height: 50rem;
+    
 }
 
 ul{
@@ -113,6 +115,7 @@ a{
 .offering_head{
     font-size: 2.5rem;
     text-align: center;
+    margin-bottom: 0;
 }
 
 .card {
@@ -132,16 +135,21 @@ a{
     font-size: 1.5rem;
     margin: 0;
     padding: 5px;
+    flex: 1 1 auto;
 }
 
 .card_img{
     width: 90%;
-    height: 50vh;
+    height: 40vh;
     border-radius: 10px;
     border: 5px solid green;
     margin: 5px auto;
 }
 
+.card_img img{
+    width: 100%;
+    height: 100%;
+}
 .quote{
     width: 100%;
     background-color: #e5e7eb;
@@ -218,7 +226,7 @@ a{
 footer{
     width: 100%;
     background-color: #1f2937;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     color: #f9faf8;
     text-align: center;
     padding: 20px;
