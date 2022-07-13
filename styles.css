@@ -46,8 +46,9 @@ a{
 .hero {
     font-weight: 100rem;
     margin: auto;
+    margin-top: 0;
     background-color: #1f2937;
-    padding: 50px;
+    padding: 50px 0;
 }
 
 .hero_make{
